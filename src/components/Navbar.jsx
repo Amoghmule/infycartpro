@@ -1,14 +1,46 @@
-import React, { Component } from 'react';
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React, { Component } from "react";
 
 class Navbar extends Component {
-    
-    render() { 
-        return ( 
-            <nav className="navbar navbar-dark bg-dark">
-                <span className="navbar-brand mb-0 h1">Navbar</span>
-            </nav>
-         );
-    }
+  render() {
+    return (
+      <nav className="navbar  navbar-expand-md navbar-dark bg-dark">
+       
+        <a href="#" className="navbar-brand">
+          Chocolate Factory
+        </a>
+
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item active">
+              <a className="nav-link" href="#">
+                Home <span className="sr-only">(current)</span>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Cart
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+        
+      </nav>
+      
+      
+    );
+  }
 }
- 
+
 export default Navbar;
