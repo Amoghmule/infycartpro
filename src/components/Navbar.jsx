@@ -4,7 +4,7 @@ import React, { Component } from "react";
 class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar  navbar-expand-md navbar-dark bg-dark">
+      <nav className="navbar fixed-top  navbar-expand-md navbar-dark bg-dark">
         <a href="#" className="navbar-brand">
           Chocolate Factory
         </a>
