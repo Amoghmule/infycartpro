@@ -7,7 +7,7 @@ class Cards extends Component {
   render() {
     return (
       <div className="card border-primary" style={{ width: "18rem" }}>
-        <img className="card-img-top" src="#" alt="Card image cap" />
+        <img className="card-img-top" src="https://www.daynmerry.com/wp-content/uploads/2018/07/milk-with-coffee-600x600.jpg" alt="Card image cap" />
         <div className="card-body">
           <h5 className="card-title">Card title</h5>
           <p className="card-text">

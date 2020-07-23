@@ -15,7 +15,8 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
-        <div className="container card-columns">
+        <h3 >Our items</h3>
+        <div className="container card-columns" id="cards">
           {this.state.cardArray.map(a=> <Cards id={a} />)}
         </div>
       </div>
