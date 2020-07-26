@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
+import {Link} from 'react-router-dom';
 
 class Navbar extends Component {
   render() {
@@ -20,11 +21,15 @@ class Navbar extends Component {
 
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav text-center">
-            <li className="nav-item active">
+            <Link to="/">
+            <li className="nav-item ">
               <a className="nav-link" href="#">
                 Home <span className="sr-only">(current)</span>
               </a>
             </li>
+            </Link>
+
+            <Link to="/cart">
             <li className="nav-item">
               <a className="nav-link"  href="#">
                 Cart{" "}
@@ -33,6 +38,7 @@ class Navbar extends Component {
                 </i>
               </a>
             </li>
+            </Link>
           </ul>
         </div>
       </nav>
