@@ -26,7 +26,7 @@ class Navbar extends Component {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" onClick={} href="#">
+              <a className="nav-link"  href="#">
                 Cart{" "}
                 <i class="fa fa-envelope-o">
                   <span class="badge badge-primary">11</span>
