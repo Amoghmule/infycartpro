@@ -1,29 +1,26 @@
 import React, { Component } from "react";
 import Navbar from "./components/Navbar";
-import Cards from "./components/Cards";
+
 import "./App.css";
+import Home from "./components/Home";
+
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state={
-      cardArray: [1,2,3,4,5,6,7,8,9,10]
-    };
+  
+
+  handleCartView= ()=>{
+
+    
   }
 
   render() {
     return (
       <div className="App">
         <Navbar />
-        <h3 >Our items</h3>
-        <div className="container card-columns" id="cards">
-          {this.state.cardArray.map(a=> <Cards id={a} />)}
-        </div>
+        <Home/>
       </div>
     );
   }
 }
 
 export default App;
-
-
