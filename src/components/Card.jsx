@@ -7,7 +7,7 @@ class Card extends Component {
     
     render() { 
         return (
-            <div className="card border-primary" style={{ width: "18rem" }}>
+            <div className="card border-primary" style={{ width: "18rem" ,height:"18rem"}}>
             <img className="card-img-top" src={this.props.src} />
             <div className="card-body">
               <h5 className="card-title">Card title</h5>

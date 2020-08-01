@@ -5,6 +5,7 @@ h3 {
     padding-bottom: 2%;
   }
 
-  .pointer {
+  .pointer:hover {
     cursor: pointer;
+    border:solid;
   }
