@@ -4,12 +4,7 @@ import Cards from "./Cards";
 import './Home.css'
 
 class Home extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-          cardArray: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        };
-      }
+    
 
 
   render() {
@@ -18,11 +13,7 @@ class Home extends Component {
         <h3>Our items</h3>
         <div class="row">
           <Category className="col" id="categories" />
-          <div className="card-columns col" id="cards">
-            {this.state.cardArray.map((a) => (
-              <Cards id={a} />
-            ))}
-          </div>
+          <Cards />
         </div>
       </div>
     );

@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
+import './Cart.css'
 
 class Cart extends Component {
     
     render() { 
         return ( 
-            <div>Welcome to my cart</div>
+            <div className="container-fluid">
+                <h3>My Cart</h3>
+                
+
+
+
+            </div>
          );
     }
 }
