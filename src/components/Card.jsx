@@ -11,13 +11,11 @@ class Card extends Component {
 
       const {src,title,text }=this.props.card;
         return (
-            <div className="card border-primary" style={{ width: "18rem" ,height:"18rem"}}>
+            <div className="card border-primary" style={{ width: "18rem" }}>
             <img className="card-img-top" src={src} />
             <div className="card-body">
               <h5 className="card-title">{title}</h5>
-              <p className="card-text">
-                {text}
-              </p>
+              <p className="card-text">{text}</p>
     
               <a href="#" className="btn btn-warning">
                 Add to Cart

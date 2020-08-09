@@ -11,7 +11,7 @@ class Cards extends Component {
 
   render() {
     return (
-      <div className="card-columns col" id="cards">
+      <div className="card-deck col" id="cards">
       {Data.map((data) => (
         <Card card={data} />
       ))}
