@@ -11,7 +11,7 @@ class Card extends Component {
 
       const {src,title,text }=this.props.card;
         return (
-            <div className="card border-primary" style={{ width: "18rem" }}>
+            <div className="card border-primary" style={{ width: "18rem", margin:"10px" }}>
             <img className="card-img-top" src={src} />
             <div className="card-body">
               <h5 className="card-title">{title}</h5>

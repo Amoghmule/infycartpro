@@ -11,11 +11,15 @@ class Cards extends Component {
 
   render() {
     return (
-      <div className="card-deck col" id="cards">
+      
+      <div className="col" id="cards">
+        
       {Data.map((data) => (
         <Card card={data} />
       ))}
+      
     </div>
+    
     );
   }
 }

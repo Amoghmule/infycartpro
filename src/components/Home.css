@@ -4,3 +4,13 @@ h3 {
     text-align: center;
     padding-bottom: 2%;
   }
+
+  #cards{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: space-between;
+  }
