@@ -13,4 +13,10 @@ h3 {
     justify-content: flex-start;
     align-items: flex-start;
     align-content: space-between;
+    min-width: 18rem;
   }
+.card{
+
+  min-width: 10rem;
+}
+

@@ -4,12 +4,12 @@ import React, { Component } from "react";
 class Category extends Component {
   render() {
     return (
-      <div class="card" style={{ width: "15%" }}>
-        <div class="card-header stretched-link pointer" onClick={this.handle}> All Categories</div>
+      <div class="card" style={{ width: "20%"}}>
+        <div class="card-header pointer" onClick={this.handle}> All Categories</div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item stretched-link pointer">Bread</li>
-          <li class="list-group-item stretched-link pointer">Milk</li>
-          <li class="list-group-item stretched-link pointer">Snacks</li>
+          <li class="list-group-item pointer">Bread</li>
+          <li class="list-group-item pointer">Milk</li>
+          <li class="list-group-item pointer">Snacks</li>
         </ul>
       </div>
     );

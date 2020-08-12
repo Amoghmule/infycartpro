@@ -12,7 +12,7 @@ class Home extends Component {
       <div className="container-fluid" id="home">
         <h3>Our items</h3>
         <div class="row">
-          <Category className="col position-fixed" id="categories" />
+          <Category className="col" id="categories" />
           <Cards className="col "/>
         </div>
       </div>
