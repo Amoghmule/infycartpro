@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/infycartpro/precache-manifest.5664b82d8e486fc41cabf566c7d2d86f.js"
+  "/infycartpro/precache-manifest.d0ae013fc6febc53cc78f222891bce10.js"
 );
 
 self.addEventListener('message', (event) => {

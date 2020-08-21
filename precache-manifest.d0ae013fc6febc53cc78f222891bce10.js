@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "64ad26a6998cc3c94537c3b6fc6fe7f0",
+    "revision": "02bf0208adc6951519bb770baabb7805",
     "url": "/infycartpro/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/infycartpro/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "0a00e6d62bebd96568cd",
+    "revision": "8131c715510b58e44f26",
     "url": "/infycartpro/static/css/main.ac233900.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/infycartpro/static/js/2.f8b5057d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0a00e6d62bebd96568cd",
-    "url": "/infycartpro/static/js/main.31c8fb99.chunk.js"
+    "revision": "8131c715510b58e44f26",
+    "url": "/infycartpro/static/js/main.665cc892.chunk.js"
   },
   {
     "revision": "110b2754be1465747f57",
