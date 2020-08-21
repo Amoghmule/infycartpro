@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/infycartpro/static/css/main.ac233900.chunk.css",
+    "main.js": "/infycartpro/static/js/main.76add5b0.chunk.js",
+    "main.js.map": "/infycartpro/static/js/main.76add5b0.chunk.js.map",
+    "runtime-main.js": "/infycartpro/static/js/runtime-main.a81b4c02.js",
+    "runtime-main.js.map": "/infycartpro/static/js/runtime-main.a81b4c02.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/infycartpro/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.f8b5057d.chunk.js": "/infycartpro/static/js/2.f8b5057d.chunk.js",
+    "static/js/2.f8b5057d.chunk.js.map": "/infycartpro/static/js/2.f8b5057d.chunk.js.map",
+    "index.html": "/infycartpro/index.html",
+    "precache-manifest.6e9ccbee8b1285c66ba8f4c619ca7c2c.js": "/infycartpro/precache-manifest.6e9ccbee8b1285c66ba8f4c619ca7c2c.js",
+    "service-worker.js": "/infycartpro/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/infycartpro/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.ac233900.chunk.css.map": "/infycartpro/static/css/main.ac233900.chunk.css.map",
+    "static/js/2.f8b5057d.chunk.js.LICENSE.txt": "/infycartpro/static/js/2.f8b5057d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a81b4c02.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.f8b5057d.chunk.js",
+    "static/css/main.ac233900.chunk.css",
+    "static/js/main.76add5b0.chunk.js"
+  ]
+}
