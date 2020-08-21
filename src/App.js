@@ -11,8 +11,8 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/cart" component={Cart} />
+          <Route path="/infycartpro" exact component={Home} />
+          <Route path="/infycartpro/cart" component={Cart} />
         </Switch>
       </div>
     );
